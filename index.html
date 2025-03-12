@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>AI Quotes Generator</title>
   </head>
 
@@ -16,7 +17,7 @@
       <script src="src/index.js"></script>
 
       <main>
-        <form>
+        <form id="quote-generator-form">
           <input
             type="text"
             placeholder="Enter the topic of the quote"
@@ -28,11 +29,7 @@
           <input type="submit" class="submit-button" />
         </form>
 
-        <div class="quotes">
-          "Love is a friendship set to music." - Joseph Campbell
-          <br />
-          "Life is the flower for which love is the honey." - Victor Hugo
-        </div>
+        <div class="quotes" id="quote"></div>
       </main>
 
       <footer>
