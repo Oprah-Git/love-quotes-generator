@@ -2,7 +2,7 @@ function generateQuote(event) {
     event.preventDefault();
 
 new Typewriter("#quote", {
-  strings: "Life is the flower for which love is the honey",
+  strings: "You are my heart, my life, my one and only thought.",
   autoStart: true,
   delay: 1,
   cursor: "",
