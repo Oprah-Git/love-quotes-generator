@@ -56,6 +56,10 @@ form {
     border-radius: 15px;
 }
 
+.quote strong {
+    color:#ADD8E6;
+}
+
 footer {
     text-align: center;
     font-size: 12px;
