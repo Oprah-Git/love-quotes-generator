@@ -12,24 +12,28 @@
   <body>
     <div class="container">
       <header>
-        <h1>AI Love Quotes Generator</h1>
+        <h1>AI Quotes Generator</h1>
       </header>
 
       <main>
-        <form id="quote-generator-form">
-          <input
-            type="text"
-            placeholder="Enter the topic of the quote"
-            autofucus
-            required
-            autocomplete="off"
-            class="input"
-            id="user-instructions"
-          />
-          <input type="submit" class="submit-button" />
-        </form>
+        <div class="form container">
+          <form id="quote-generator-form">
+            <input
+              type="text"
+              placeholder="Enter the topic of the quote"
+              autofucus
+              required
+              autocomplete="off"
+              class="input"
+              id="user-instructions"
+            />
+            <input type="submit" class="submit-button" />
+          </form>
 
-        <div class="quote" id="quote"></div>
+          <div class="hint">i.e: Love, Friendship or Life</div>
+        </div>
+
+        <div class="quote hidden" id="quote"></div>
       </main>
 
       <footer>
